@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CircleProgressView.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+   
+	CircleProgressView *progressView = [[CircleProgressView  alloc]initWithFrame:CGRectMake(self.view.center.x, self.view.center.y, 70, 70)];
+    progressView.center = self.view.center;
+    [progressView startAnimating];
+    [self.view addSubview:progressView];
+    
 }
 
 - (void)didReceiveMemoryWarning

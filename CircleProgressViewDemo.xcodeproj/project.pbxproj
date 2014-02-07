@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C42A1718A532CE00D2361E /* EC3CB1E7-17B6-4302-9950-7663BB8CC7DC.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C42A1618A532CE00D2361E /* EC3CB1E7-17B6-4302-9950-7663BB8CC7DC.png */; };
 		34FCBB8218A4A451006002E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FCBB8118A4A451006002E2 /* Foundation.framework */; };
 		34FCBB8418A4A451006002E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FCBB8318A4A451006002E2 /* CoreGraphics.framework */; };
 		34FCBB8618A4A451006002E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FCBB8518A4A451006002E2 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		34FCBBA318A4A451006002E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FCBB8518A4A451006002E2 /* UIKit.framework */; };
 		34FCBBAB18A4A451006002E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FCBBA918A4A451006002E2 /* InfoPlist.strings */; };
 		34FCBBAD18A4A451006002E2 /* CircleProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FCBBAC18A4A451006002E2 /* CircleProgressViewDemoTests.m */; };
+		34FCBBB818A4A468006002E2 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FCBBB718A4A468006002E2 /* CircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C42A1618A532CE00D2361E /* EC3CB1E7-17B6-4302-9950-7663BB8CC7DC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EC3CB1E7-17B6-4302-9950-7663BB8CC7DC.png"; sourceTree = "<group>"; };
 		34FCBB7E18A4A451006002E2 /* CircleProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FCBB8118A4A451006002E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34FCBB8318A4A451006002E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,8 @@
 		34FCBBA818A4A451006002E2 /* CircleProgressViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleProgressViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		34FCBBAA18A4A451006002E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34FCBBAC18A4A451006002E2 /* CircleProgressViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressViewDemoTests.m; sourceTree = "<group>"; };
+		34FCBBB618A4A468006002E2 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleProgressView.h; path = CircleProgressView/CircleProgressView.h; sourceTree = "<group>"; };
+		34FCBBB718A4A468006002E2 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleProgressView.m; path = CircleProgressView/CircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +123,10 @@
 				34FCBB9618A4A451006002E2 /* ViewController.h */,
 				34FCBB9718A4A451006002E2 /* ViewController.m */,
 				34FCBB9918A4A451006002E2 /* Images.xcassets */,
+				34C42A1618A532CE00D2361E /* EC3CB1E7-17B6-4302-9950-7663BB8CC7DC.png */,
 				34FCBB8818A4A451006002E2 /* Supporting Files */,
+				34FCBBB618A4A468006002E2 /* CircleProgressView.h */,
+				34FCBBB718A4A468006002E2 /* CircleProgressView.m */,
 			);
 			path = CircleProgressViewDemo;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C42A1718A532CE00D2361E /* EC3CB1E7-17B6-4302-9950-7663BB8CC7DC.png in Resources */,
 				34FCBB9A18A4A451006002E2 /* Images.xcassets in Resources */,
 				34FCBB8C18A4A451006002E2 /* InfoPlist.strings in Resources */,
 				34FCBB9518A4A451006002E2 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34FCBB9818A4A451006002E2 /* ViewController.m in Sources */,
+				34FCBBB818A4A468006002E2 /* CircleProgressView.m in Sources */,
 				34FCBB9218A4A451006002E2 /* AppDelegate.m in Sources */,
 				34FCBB8E18A4A451006002E2 /* main.m in Sources */,
 			);
@@ -460,6 +470,7 @@
 				34FCBBB218A4A451006002E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34FCBBB318A4A451006002E2 /* Build configuration list for PBXNativeTarget "CircleProgressViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				34FCBBB518A4A451006002E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
